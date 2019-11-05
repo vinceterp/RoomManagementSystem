@@ -1,0 +1,109 @@
+/*RMS USE Class Model*/
+
+model RMS
+
+enum Faculty {ScienceAndTechnology, MedScience, SocialScience, CARIMAC, Law, SchoolOfBusiness}
+
+enum Status {Complete, InProgress, Posted}
+
+enum ResidentStatus {Good, Delinquent, Removed, Inactive}
+
+enum RoomStatus {Occupied, Unoccupied, Dormant, Restoring, Cleaning}
+
+
+abstract class Role
+end
+
+abstract class Identifier
+attributes
+	id: Integer 
+end
+
+abstract class Employee < Identifier
+attributes
+	name: String
+end
+
+class Resident < Identifier
+attributes
+	accountStatus: ResidentStatus
+	contact: String
+	fac: Faculty
+operations
+end
+
+class MaintenanceSup < Technician end
+class AccountMng < Accountant end
+class RoomSup < RoomMng end
+class HousekeepingSup < HouseKeeper end
+
+class Room < Identifier
+attributes
+	roomStatus: RoomStatus
+operations
+end
+
+class EmployeeTask
+attributes
+	status: Status
+	description: String
+constraints
+    inv roomsCleaning:
+             self.status = Status::Complete implies
+                   self.rooms->forAll(roomStatus <> RoomStatus::Restoring or roomStatus  <> RoomStatus::Cleaning)
+end
+
+class RoomMng < Role
+attributes
+operations
+	cancelReservation(room: Room, res: Resident): OclVoid
+	verifyReservation(room: Room, res: Resident): OclVoid
+	modifyReservation(room: Room, res: Resident): OclVoid
+end
+class HouseKeeper < Role end
+class Technician < Role end
+class Accountant < Role end
+
+/*Association Classes*/
+
+associationclass Reservation
+between
+	Room[1] role room
+	Resident[*] role occupant ordered
+attributes
+	shortTerm: Boolean
+	days: Integer
+constraints
+	inv overstay:
+		days < 120 implies shortTerm= true
+	inv reservationLimit:
+		days <= 275
+	
+end
+
+
+/*Associations*/
+association EmployeeTasks
+between
+	Employee[*] role employee
+	EmployeeTask [*] role tasks
+end
+
+association RoomTask
+between
+	EmployeeTask [*] role task
+	Room [*] role rooms
+end
+
+association ManageReservation
+between
+	RoomMng [1..*] role roommanagement
+	Reservation [*] role reservations
+end
+
+association EmployeeRole
+between
+	Employee [*] role employees
+	Role [1] role role
+end
+	
