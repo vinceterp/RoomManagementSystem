@@ -2,6 +2,10 @@
 
 model RMS
 
+/*
+DateTime is being used as a standard data type in this case with some basic operations
+*/
+
 enum Faculty {ScienceAndTechnology, MedScience, SocialScience, CARIMAC, Law, SchoolOfBusiness}
 
 enum Status {Complete, InProgress, Posted}
@@ -11,8 +15,7 @@ enum ResidentStatus {Good, Delinquent, Removed, Inactive}
 enum RoomStatus {Occupied, Unoccupied, Dormant, Restoring, Cleaning}
 
 
-abstract class Role
-end
+abstract class Role end
 
 abstract class Identifier
 attributes
@@ -22,6 +25,24 @@ end
 abstract class Employee < Identifier
 attributes
 	name: String
+end
+
+class DateTime
+attributes
+	month: Integer
+	day: Integer
+	year: Integer
+	hour: Integer
+	minutes: Integer
+	second: Real
+operations
+	after(dateTime: DateTime): Boolean
+	currentDate(): DateTime
+end
+
+class Period
+attributes
+	period: DateTime
 end
 
 class Resident < Identifier
@@ -55,10 +76,72 @@ end
 
 class RoomMng < Role
 attributes
+/*
 operations
 	cancelReservation(room: Room, res: Resident): OclVoid
 	verifyReservation(room: Room, res: Resident): OclVoid
 	modifyReservation(room: Room, res: Resident): OclVoid
+*/
+end
+class HouseKeeper < Role end
+class Technician < Role end
+class Accountant < Role end
+
+/*Association Classes*/
+
+associationclass Reservation
+between
+	Room[1] role room
+	Resident[*] role occupant ordered
+attributes
+	active: Boolean
+	shortTerm: Boolean
+	days: Integer derived= 0
+	/*=checkinout->last().difference(checkinout->first())*/
+constraints
+	inv reservationLimit:
+		days <= 275
+	inv overStay:
+		days < 120 implies shortTerm= true
+end
+
+
+/*Associations*/
+association EmployeeTasks
+between
+	Employee[*] role employee
+	EmployeeTask [*] role tasks
+end
+
+association RoomTask
+between
+	EmployeeTask [*] role task
+	Room [*] role rooms
+end
+
+association ManageReservation
+between
+	RoomMng [1..*] role roommanagement
+	Reservation [*] role reservations
+end
+
+association EmployeeRole
+between
+	Employee [*] role employees
+	Role [1] role role
+end
+
+association Manager
+between
+	Employee [*] role employee
+	Employee [1..*] role manager
+end
+
+association ReservationPeriod
+between
+	Reservation [1] role reservation
+	Period [1..2] role checkinout ordered
+end
 end
 class HouseKeeper < Role end
 class Technician < Role end
@@ -106,4 +189,3 @@ between
 	Employee [*] role employees
 	Role [1] role role
 end
-	
