@@ -40,9 +40,9 @@ attributes
 	hour: Integer
 	minutes: Integer
 	second: Real
-operations
+operations/*
 	after(dateTime: DateTime): Boolean
-	currentDate(): DateTime
+	currentDate(): DateTime*/
 end
 
 class Period
@@ -68,10 +68,11 @@ class HousekeepingSup < HouseKeeper end
 class Room < Identifier
 attributes
 	roomStatus: RoomStatus
+	roomRate: UnlimitedNatural
 operations
 constraints
 	inv noDoubleBooking:
-		occupants->select(x| x.reservation.active = true)->size() < 2
+		occupants->select(x| x.reservation.active = true)->size() <= 2
 end
 
 class EmployeeTask
@@ -160,4 +161,10 @@ association ResidentAccount
 between
 	Resident [1..*] role resident
 	Account [1] role account
+end
+
+association Rent
+between
+	Reservation [1] role occupant
+	Account [1] role payment
 end
