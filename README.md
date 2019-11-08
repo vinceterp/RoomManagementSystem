@@ -13,4 +13,6 @@ Software Modeling (SWEN3145) semester 1 2019/20
 7) ./start_use.bat
 8) All Set!
 
+P.S. Don't forget to download the layout file
+
 :::::::::::::::
