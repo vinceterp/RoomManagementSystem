@@ -17,6 +17,11 @@ enum RoomStatus {Occupied, Unoccupied, Dormant, Restoring, Cleaning}
 
 abstract class Role end
 
+abstract class Account
+attributes
+	balance: UnlimitedNatural
+end
+
 abstract class Identifier
 attributes
 	id: Integer 
@@ -45,6 +50,8 @@ attributes
 	period: DateTime
 end
 
+class Billing < Account end
+
 class Resident < Identifier
 attributes
 	accountStatus: ResidentStatus
@@ -62,6 +69,9 @@ class Room < Identifier
 attributes
 	roomStatus: RoomStatus
 operations
+constraints
+	inv noDoubleBooking:
+		occupants->select(x| x.reservation.active = true)->size() < 2
 end
 
 class EmployeeTask
@@ -75,7 +85,6 @@ constraints
 end
 
 class RoomMng < Role
-attributes
 /*
 operations
 	cancelReservation(room: Room, res: Resident): OclVoid
@@ -92,17 +101,21 @@ class Accountant < Role end
 associationclass Reservation
 between
 	Room[1] role room
-	Resident[*] role occupant ordered
+	Resident[*] role occupants ordered
 attributes
 	active: Boolean
 	shortTerm: Boolean
 	days: Integer derived= 0
-	/*=checkinout->last().difference(checkinout->first())*/
+	/* This attribute is derived by subtracting the number of days in the first period from the number of days in the last period
+
+	=checkinout->last().difference(checkinout->first())*/
 constraints
 	inv reservationLimit:
 		days <= 275
 	inv overStay:
 		days < 120 implies shortTerm= true
+	inv checkoutDate:
+		active = true implies checkinout->size() = 1 and checkinout->size() = 1 implies active = true
 end
 
 
@@ -115,8 +128,8 @@ end
 
 association RoomTask
 between
-	EmployeeTask [*] role task
-	Room [*] role rooms
+	EmployeeTask [*] role task ordered
+	Room [1..*] role rooms
 end
 
 association ManageReservation
@@ -131,7 +144,7 @@ between
 	Role [1] role role
 end
 
-association Manager
+association Management
 between
 	Employee [*] role employee
 	Employee [1..*] role manager
@@ -142,50 +155,9 @@ between
 	Reservation [1] role reservation
 	Period [1..2] role checkinout ordered
 end
-end
-class HouseKeeper < Role end
-class Technician < Role end
-class Accountant < Role end
 
-/*Association Classes*/
-
-associationclass Reservation
+association ResidentAccount
 between
-	Room[1] role room
-	Resident[*] role occupant ordered
-attributes
-	shortTerm: Boolean
-	days: Integer
-constraints
-	inv overstay:
-		days < 120 implies shortTerm= true
-	inv reservationLimit:
-		days <= 275
-	
-end
-
-
-/*Associations*/
-association EmployeeTasks
-between
-	Employee[*] role employee
-	EmployeeTask [*] role tasks
-end
-
-association RoomTask
-between
-	EmployeeTask [*] role task
-	Room [*] role rooms
-end
-
-association ManageReservation
-between
-	RoomMng [1..*] role roommanagement
-	Reservation [*] role reservations
-end
-
-association EmployeeRole
-between
-	Employee [*] role employees
-	Role [1] role role
+	Resident [1..*] role resident
+	Account [1] role account
 end
