@@ -27,7 +27,7 @@ attributes
 	id: Integer 
 end
 
-abstract class Employee < Identifier
+class Employee < Identifier
 attributes
 	name: String
 end
