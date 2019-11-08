@@ -109,6 +109,8 @@ attributes
 	days: Integer derived= 0
 	/* This attribute is derived by subtracting the number of days in the first period from the number of days in the last period
 
+	Value should be init: 0 at first
+
 	=checkinout->last().difference(checkinout->first())*/
 constraints
 	inv reservationLimit:
