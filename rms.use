@@ -126,7 +126,7 @@ end
 association EmployeeTasks
 between
 	Employee[*] role employee
-	EmployeeTask [*] role tasks
+	EmployeeTask [*] role tasks ordered
 end
 
 association RoomTask
@@ -167,6 +167,6 @@ end
 
 association Rent
 between
-	Reservation [1] role occupant
+	Reservation [1] role booking
 	Account [1] role payment
 end
