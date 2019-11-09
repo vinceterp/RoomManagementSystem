@@ -1,0 +1,53 @@
+!create raySimms: Employee
+!set raySimms.id:= 000001
+!set raySimms.name:= 'RaySimms'
+!create danaSimpson: Employee
+!set danaSimpson.id:= 000002
+!set danaSimpson.name:='Dana Simpson'
+!create room1: Room
+!set room1.roomStatus:= RoomStatus::Unoccupied
+!set room1.roomRate:= 3499
+!set room1.id:= 1
+!create room36: Room
+!set room36.id:= 36
+!set room36.roomStatus:= RoomStatus::Unoccupied
+!set room36.roomRate:= 2599
+!create empTask1: EmployeeTask
+!set empTask1.status:= Status::Posted
+!insert (raySimms, empTask1) into EmployeeTasks
+!insert (empTask1, room36) into RoomTask
+!create paulCampbell: Resident
+!set paulCampbell.id:= 1
+!set paulCampbell.accountStatus:= ResidentStatus::Good
+!set paulCampbell.contact:= 8765551234
+!set paulCampbell.contact:= '8765551234'
+!set paulCampbell.fac:= Faculty::MedScience
+!insert (room1, paulCampbell) into Reservation
+!set Reservation1.active:= true
+!set Reservation1.shortTerm:= true
+!create techRole: Technician
+!insert (danaSimpson, techRole) into EmployeeRole
+!create tonyStark: Employee
+!set tonyStark.id:= 3
+!set tonyStark.name:= 'Tony Stark'
+!insert (tonyStark, techManagerRole) into EmployeeRole
+!insert (danaSimpson, tonyStark) into Management
+!create housekeepingMng: HousekeepingSup
+!insert (raySimms, housekeepingMng) into EmployeeRole
+!create checkin1: Period
+!insert (Reservation1, checkin1) into ReservationPeriod
+!create accOfPC: Billing
+!set accOfPC.balance:= 0
+!insert (Reservation1, accOfPC) into Rent
+!create mrMoseby: Employee
+!create roomMngRole: RoomSup
+!insert (mrMoseby, roomMngRole) into EmployeeRole
+!insert (roomMngRole, Reservation1) into ManageReservation
+!insert (mrMoseby, mrMoseby) into Management
+!set mrMoseby.name:= 'Marion Moseby'
+!set mrMoseby.id:= 4
+!create maintenanceSupRole: MaintenanceSup
+!insert (tonyStark, maintenanceSupRole) into EmployeeRole
+!insert (paulCampbell, accOfPC) into ResidentAccount
+!insert (raySimms, raySimms) into Management
+!set empTask1.description:= 'Regular Cleaning'
