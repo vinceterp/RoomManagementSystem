@@ -30,7 +30,6 @@
 !create tonyStark: Employee
 !set tonyStark.id:= 3
 !set tonyStark.name:= 'Tony Stark'
-!insert (tonyStark, techManagerRole) into EmployeeRole
 !insert (danaSimpson, tonyStark) into Management
 !create housekeepingMng: HousekeepingSup
 !insert (raySimms, housekeepingMng) into EmployeeRole
