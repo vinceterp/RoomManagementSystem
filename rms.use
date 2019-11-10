@@ -118,7 +118,7 @@ constraints
 	inv overStay:
 		days < 120 implies shortTerm= true
 	inv checkoutDate:
-		active = true implies checkinout->size() = 1 and checkinout->size() = 1 implies active = true
+		active = true implies checkinout->size() = 1 and checkinout->size() = 2 implies active = false
 end
 
 
