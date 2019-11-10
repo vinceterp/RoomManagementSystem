@@ -44,3 +44,4 @@
 !set taylorSimpson.id:= 3
 !set janetMills.name:= 'Janet Mills'
 !set taylorSimpson.name:= 'Taylor Simpson'
+!insert (taylorSimpson, taylorSimpson) into Management
