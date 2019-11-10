@@ -31,6 +31,7 @@
 !set tonyStark.id:= 3
 !set tonyStark.name:= 'Tony Stark'
 !insert (danaSimpson, tonyStark) into Management
+!insert (tonyStark, tonyStark) into Management
 !create housekeepingMng: HousekeepingSup
 !insert (raySimms, housekeepingMng) into EmployeeRole
 !create checkin1: Period
