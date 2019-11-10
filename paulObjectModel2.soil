@@ -1,0 +1,46 @@
+!create maxPayne: Resident
+!set maxPayne.id:= 1
+!set maxPayne.accountStatus:= ResidentStatus::Good
+!set maxPayne.contact:= '8765554321'
+!set maxPayne.fac:= Faculty::Law
+!create room34: Room
+!set room34.id:= 34
+!set room34.roomStatus:= RoomStatus::Occupied
+!set room34.roomRate:= 3499
+!insert (room34, maxPayne) into Reservation
+!set Reservation1.active:= true
+!set Reservation1.shortTerm:= true
+!set Reservation1.days:= 34
+!create accOfMP: Billing
+!set accOfMP.balance:= 52485
+!insert (maxPayne, accOfMP) into ResidentAccount
+!insert (Reservation1, accOfMP) into Rent
+!create checkin1: Period
+!insert (Reservation1, checkin1) into ReservationPeriod
+!create elvisPresley: Employee
+!elvisPresley.name:= 'Elvis Presley'
+!elvisPresley.id:= 1
+!create roomSupRole: RoomSup
+!insert (elvisPresley, roomSupRole) into EmployeeRole
+!insert (roomSupRole, Reservation1) into ManageReservation
+!insert (elvisPresley, elvisPresley) into Management
+!create empTask1: EmployeeTask
+!set empTask1.status:= Status::Complete
+!set empTask1.description:= 'Update Reservation Date'
+!insert (elvisPresley, empTask1) into EmployeeTasks
+!insert (empTask1, room34) into RoomTask
+!create room22: Room
+!set room22.id:= 22
+!set room22.roomStatus:= RoomStatus::Unoccupied
+!set room22.roomRate:= 2599
+!create janetMills: Employee
+!create accountantRole: Accountant
+!insert (janetMills, accountantRole) into EmployeeRole
+!create taylorSimpson: Employee
+!create accountMng: AccountMng
+!insert (taylorSimpson, accountMng) into EmployeeRole
+!insert (janetMills, taylorSimpson) into Management
+!set janetMills.id:= 2
+!set taylorSimpson.id:= 3
+!set janetMills.name:= 'Janet Mills'
+!set taylorSimpson.name:= 'Taylor Simpson'
