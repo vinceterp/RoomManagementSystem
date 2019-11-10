@@ -1,0 +1,2752 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<diagram_Layout version="13">
+    <diagramOptions>
+        <autolayout>false</autolayout>
+        <antialiasing>false</antialiasing>
+        <showassocnames>false</showassocnames>
+        <showattributes>true</showattributes>
+        <showmultiplicities>false</showmultiplicities>
+        <showoperations>false</showoperations>
+        <showrolenames>true</showrolenames>
+        <showgrid>false</showgrid>
+        <ShowStates>false</ShowStates>
+    </diagramOptions>
+    <node id="room5" sizeCalculated="true" type="Object">
+        <name>room5</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>946.4441144305687</x>
+            <y>421.1854158680445</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="res5" sizeCalculated="true" type="Object">
+        <name>res5</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>958.5447729777567</x>
+            <y>268.70972571785904</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="accOfres5" sizeCalculated="true" type="Object">
+        <name>accOfres5</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>958.9825690194006</x>
+            <y>161.79014205397203</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="room10" sizeCalculated="true" type="Object">
+        <name>room10</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>30.831588512079747</x>
+            <y>413.10400371352796</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="accOfres10" sizeCalculated="true" type="Object">
+        <name>accOfres10</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>304.4750987913006</x>
+            <y>241.85267975820386</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="res10" sizeCalculated="true" type="Object">
+        <name>res10</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>63.41240767580348</x>
+            <y>244.38831761098686</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="checkin1_res10" sizeCalculated="true" type="Object">
+        <name>checkin1_res10</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>419.61748545479827</x>
+            <y>450.0020457572199</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="maintenanceSupRole" sizeCalculated="true" type="Object">
+        <name>maintenanceSupRole</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>245.27653362632248</x>
+            <y>17.63890351511256</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="branStark" sizeCalculated="true" type="Object">
+        <name>branStark</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>494.6598869688369</x>
+            <y>92.03004961278901</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="roomSupRole" sizeCalculated="true" type="Object">
+        <name>roomSupRole</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>507.91648654619394</x>
+            <y>222.41600824827214</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="checkout1_res10" sizeCalculated="true" type="Object">
+        <name>checkout1_res10</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>204.46509523261716</x>
+            <y>448.3381452737909</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="aryaStark" sizeCalculated="true" type="Object">
+        <name>aryaStark</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>51.93795461522791</x>
+            <y>113.2976281751327</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="dannyTee" sizeCalculated="true" type="Object">
+        <name>dannyTee</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>671.7634191516754</x>
+            <y>151.4119127354728</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="accountMngRole" sizeCalculated="true" type="Object">
+        <name>accountMngRole</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>667.3458560469827</x>
+            <y>14.19993743671597</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="Reservation2" sizeCalculated="true" type="Object">
+        <name>Reservation2</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+            <userOffsetX>-235.0</userOffsetX>
+            <userOffsetY>-25.0</userOffsetY>
+            <basisDeltaX>ABSOLUTE</basisDeltaX>
+            <deltaX>0.0</deltaX>
+            <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+            <basisDeltaY>ABSOLUTE</basisDeltaY>
+            <deltaY>-54.0</deltaY>
+            <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+            <corner>NORTH</corner>
+            <relativeNodeId>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::-1</relativeNodeId>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="checkin1_res5" sizeCalculated="true" type="Object">
+        <name>checkin1_res5</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>746.1306537524999</x>
+            <y>445.50786486324887</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="Reservation1" sizeCalculated="true" type="Object">
+        <name>Reservation1</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+            <userOffsetX>293.0</userOffsetX>
+            <userOffsetY>-29.0</userOffsetY>
+            <basisDeltaX>ABSOLUTE</basisDeltaX>
+            <deltaX>0.0</deltaX>
+            <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+            <basisDeltaY>ABSOLUTE</basisDeltaY>
+            <deltaY>-54.0</deltaY>
+            <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+            <corner>NORTH</corner>
+            <relativeNodeId>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::-1</relativeNodeId>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="housekeepingMngRole" sizeCalculated="true" type="Object">
+        <name>housekeepingMngRole</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>17.83481788320225</x>
+            <y>17.75250739638902</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <node id="jonSnow" sizeCalculated="true" type="Object">
+        <name>jonSnow</name>
+        <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
+            <x>244.2309240883161</x>
+            <y>119.45346246898367</y>
+        </strategy>
+        <hidden>false</hidden>
+    </node>
+    <edge type="BinaryEdge">
+        <source>dannyTee</source>
+        <target>dannyTee</target>
+        <name>Management</name>
+        <properties>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::target::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>manager</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>56.0</userOffsetX>
+                    <userOffsetY>7.0</userOffsetY>
+                    <attached>[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Management</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::2</related0>
+                        <related1>[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::3</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>employee</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>5.0</userOffsetY>
+                    <attached>[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>0.0</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>dannyTee</relativeNodeId>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>dannyTee</relativeNodeId>
+                </strategy>
+                <id>1</id>
+                <specialid>3</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::2"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>dannyTee</relativeNodeId>
+                </strategy>
+                <id>2</id>
+                <specialid>4</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::3"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>3</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>dannyTee</relativeNodeId>
+                </strategy>
+                <id>3</id>
+                <specialid>5</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:dannyTee, manager:dannyTee)]::WayPoint::4"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>4</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>0.0</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>dannyTee</relativeNodeId>
+                </strategy>
+                <id>4</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[Management : (employee:dannyTee, manager:dannyTee)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>branStark</source>
+        <target>roomSupRole</target>
+        <name>EmployeeRole</name>
+        <properties>
+            <edgeproperty
+                id="[EmployeeRole : (employees:branStark, role:roomSupRole)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>role</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:branStark, role:roomSupRole)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:branStark, role:roomSupRole)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>EmployeeRole</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::0</related0>
+                        <related1>[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:branStark, role:roomSupRole)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:branStark, role:roomSupRole)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>employees</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>9.0</userOffsetX>
+                    <userOffsetY>8.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:branStark, role:roomSupRole)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[EmployeeRole : (employees:branStark, role:roomSupRole)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>aryaStark</source>
+        <target>housekeepingMngRole</target>
+        <name>EmployeeRole</name>
+        <properties>
+            <edgeproperty
+                id="[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>role</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>EmployeeRole</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::0</related0>
+                        <related1>[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>employees</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint" userDefined="true" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>20.97410977411323</userOffsetX>
+                    <userOffsetY>-1.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+                    <corner>NORTH_WEST</corner>
+                    <relativeNodeId>aryaStark</relativeNodeId>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint" userDefined="true" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>77.87033359648238</userOffsetX>
+                    <userOffsetY>22.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+                    <corner>NORTH_WEST</corner>
+                    <relativeNodeId>housekeepingMngRole</relativeNodeId>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[EmployeeRole : (employees:aryaStark, role:housekeepingMngRole)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>jonSnow</source>
+        <target>jonSnow</target>
+        <name>Management</name>
+        <properties>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::target::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>manager</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>57.0</userOffsetX>
+                    <userOffsetY>8.0</userOffsetY>
+                    <attached>[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Management</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::2</related0>
+                        <related1>[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::3</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>employee</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>1.0</userOffsetX>
+                    <userOffsetY>4.0</userOffsetY>
+                    <attached>[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>0.0</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>jonSnow</relativeNodeId>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>jonSnow</relativeNodeId>
+                </strategy>
+                <id>1</id>
+                <specialid>3</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::2"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>jonSnow</relativeNodeId>
+                </strategy>
+                <id>2</id>
+                <specialid>4</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::3"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>3</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>jonSnow</relativeNodeId>
+                </strategy>
+                <id>3</id>
+                <specialid>5</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:jonSnow, manager:jonSnow)]::WayPoint::4"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>4</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>0.0</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>jonSnow</relativeNodeId>
+                </strategy>
+                <id>4</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[Management : (employee:jonSnow, manager:jonSnow)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>Reservation2</source>
+        <target>accOfres5</target>
+        <name>Rent</name>
+        <properties>
+            <edgeproperty
+                id="[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>payment</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Rent</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::0</related0>
+                        <related1>[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>booking</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[Rent : (booking:Reservation2 [Reservation : (room:room5, occupants:res5)], payment:accOfres5)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>Reservation2</source>
+        <target>checkin1_res5</target>
+        <name>ReservationPeriod</name>
+        <properties>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::target::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>checkinout {ordered}</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>119.0</userOffsetX>
+                    <userOffsetY>8.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>ReservationPeriod</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::0</related0>
+                        <related1>[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>reservation</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[ReservationPeriod : (checkinout:checkin1_res5, reservation:Reservation2 [Reservation : (room:room5, occupants:res5)])]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>roomSupRole</source>
+        <target>Reservation2</target>
+        <name>ManageReservation</name>
+        <properties>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>reservations</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>ManageReservation</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::0</related0>
+                        <related1>[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>roommanagement</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>117.0</userOffsetX>
+                    <userOffsetY>1.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[ManageReservation : (reservations:Reservation2 [Reservation : (room:room5, occupants:res5)], roommanagement:roomSupRole)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>res5</source>
+        <target>accOfres5</target>
+        <name>ResidentAccount</name>
+        <properties>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres5, resident:res5)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres5, resident:res5)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>account</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres5, resident:res5)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>ResidentAccount</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::0</related0>
+                        <related1>[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres5, resident:res5)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres5, resident:res5)]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>resident</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres5, resident:res5)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[ResidentAccount : (account:accOfres5, resident:res5)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>jonSnow</source>
+        <target>maintenanceSupRole</target>
+        <name>EmployeeRole</name>
+        <properties>
+            <edgeproperty
+                id="[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>role</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>EmployeeRole</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::0</related0>
+                        <related1>[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>employees</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>9.0</userOffsetX>
+                    <userOffsetY>11.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint" userDefined="true" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>49.11604537909034</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+                    <corner>NORTH_WEST</corner>
+                    <relativeNodeId>jonSnow</relativeNodeId>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint" userDefined="true" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>68.93529892057853</userOffsetX>
+                    <userOffsetY>22.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+                    <corner>NORTH_WEST</corner>
+                    <relativeNodeId>maintenanceSupRole</relativeNodeId>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[EmployeeRole : (employees:jonSnow, role:maintenanceSupRole)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>Reservation1</source>
+        <target>accOfres10</target>
+        <name>Rent</name>
+        <properties>
+            <edgeproperty
+                id="[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>payment</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Rent</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::0</related0>
+                        <related1>[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>booking</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[Rent : (booking:Reservation1 [Reservation : (occupants:res10, room:room10)], payment:accOfres10)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>branStark</source>
+        <target>branStark</target>
+        <name>Management</name>
+        <properties>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:branStark, manager:branStark)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::target::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>manager</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>57.0</userOffsetX>
+                    <userOffsetY>9.0</userOffsetY>
+                    <attached>[Management : (employee:branStark, manager:branStark)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Management</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Management : (employee:branStark, manager:branStark)]::WayPoint::2</related0>
+                        <related1>[Management : (employee:branStark, manager:branStark)]::WayPoint::3</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:branStark, manager:branStark)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>employee</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>1.0</userOffsetX>
+                    <userOffsetY>6.0</userOffsetY>
+                    <attached>[Management : (employee:branStark, manager:branStark)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>0.0</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>branStark</relativeNodeId>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>branStark</relativeNodeId>
+                </strategy>
+                <id>1</id>
+                <specialid>3</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::WayPoint::2"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>branStark</relativeNodeId>
+                </strategy>
+                <id>2</id>
+                <specialid>4</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::WayPoint::3"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>3</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>branStark</relativeNodeId>
+                </strategy>
+                <id>3</id>
+                <specialid>5</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:branStark, manager:branStark)]::WayPoint::4"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>4</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>0.0</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>branStark</relativeNodeId>
+                </strategy>
+                <id>4</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[Management : (employee:branStark, manager:branStark)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>dannyTee</source>
+        <target>accountMngRole</target>
+        <name>EmployeeRole</name>
+        <properties>
+            <edgeproperty
+                id="[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>role</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>EmployeeRole</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::0</related0>
+                        <related1>[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>employees</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>9.0</userOffsetX>
+                    <userOffsetY>6.0</userOffsetY>
+                    <attached>[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[EmployeeRole : (employees:dannyTee, role:accountMngRole)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[EmployeeRole : (employees:dannyTee, role:accountMngRole)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>Reservation1</source>
+        <target>checkout1_res10</target>
+        <name>ReservationPeriod</name>
+        <properties>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>checkinout {ordered}</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>ReservationPeriod</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0</related0>
+                        <related1>[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>reservation</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[ReservationPeriod : (checkinout:checkout1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>roomSupRole</source>
+        <target>Reservation1</target>
+        <name>ManageReservation</name>
+        <properties>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>reservations</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>ManageReservation</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::0</related0>
+                        <related1>[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>roommanagement</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>1.0</userOffsetX>
+                    <userOffsetY>-1.0</userOffsetY>
+                    <attached>[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[ManageReservation : (reservations:Reservation1 [Reservation : (occupants:res10, room:room10)], roommanagement:roomSupRole)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>aryaStark</source>
+        <target>aryaStark</target>
+        <name>Management</name>
+        <properties>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::target::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>manager</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>59.0</userOffsetX>
+                    <userOffsetY>11.0</userOffsetY>
+                    <attached>[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::4</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Management</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::2</related0>
+                        <related1>[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::3</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>employee</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>2.0</userOffsetX>
+                    <userOffsetY>5.0</userOffsetY>
+                    <attached>[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>0.0</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>aryaStark</relativeNodeId>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>-0.3333</deltaY>
+                    <maxDeltaY>66.66</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>aryaStark</relativeNodeId>
+                </strategy>
+                <id>1</id>
+                <specialid>3</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::2"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>0.6666</deltaX>
+                    <maxDeltaX>133.32</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>aryaStark</relativeNodeId>
+                </strategy>
+                <id>2</id>
+                <specialid>4</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::3"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>3</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>RELATIVE</basisDeltaY>
+                    <deltaY>0.6666</deltaY>
+                    <maxDeltaY>133.32</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>aryaStark</relativeNodeId>
+                </strategy>
+                <id>3</id>
+                <specialid>5</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[Management : (employee:aryaStark, manager:aryaStark)]::WayPoint::4"
+                sizeCalculated="true" type="WayPoint" userDefined="true" visible="true">
+                <name>4</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>-4.0</userOffsetX>
+                    <userOffsetY>6.0</userOffsetY>
+                    <basisDeltaX>RELATIVE</basisDeltaX>
+                    <deltaX>-0.3333</deltaX>
+                    <maxDeltaX>66.66</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>0.0</deltaY>
+                    <maxDeltaY>0.0</maxDeltaY>
+                    <corner>NORTH_EAST</corner>
+                    <relativeNodeId>aryaStark</relativeNodeId>
+                </strategy>
+                <id>4</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[Management : (employee:aryaStark, manager:aryaStark)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>res10</source>
+        <target>accOfres10</target>
+        <name>ResidentAccount</name>
+        <properties>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres10, resident:res10)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres10, resident:res10)]::target::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>account</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>7.0</userOffsetX>
+                    <userOffsetY>-8.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres10, resident:res10)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>ResidentAccount</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::0</related0>
+                        <related1>[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres10, resident:res10)]::source::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>resident</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>3.0</userOffsetX>
+                    <userOffsetY>-7.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres10, resident:res10)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ResidentAccount : (account:accOfres10, resident:res10)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[ResidentAccount : (account:accOfres10, resident:res10)]</linkValue>
+    </edge>
+    <edge type="BinaryEdge">
+        <source>Reservation1</source>
+        <target>checkin1_res10</target>
+        <name>ReservationPeriod</name>
+        <properties>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::target::rolename"
+                sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>checkinout {ordered}</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>6.0</userOffsetX>
+                    <userOffsetY>4.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1..2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>ReservationPeriod</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0</related0>
+                        <related1>[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>reservation</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <linkValue>[ReservationPeriod : (checkinout:checkin1_res10, reservation:Reservation1 [Reservation : (occupants:res10, room:room10)])]</linkValue>
+    </edge>
+    <edge type="NodeEdge">
+        <source>room5</source>
+        <target>res5</target>
+        <name>Reservation</name>
+        <properties>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>occupants {ordered}</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Reservation</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::0</related0>
+                        <related1>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>room</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <connectionNode>
+            <edgeproperty
+                id="Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::-1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>-1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>0.0</offsetY>
+                    <related length="2">
+                        <related0>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::0</related0>
+                        <related1>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <id>-1</id>
+                <specialid>7</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+        </connectionNode>
+        <associationClass>
+            <node id="Reservation2" sizeCalculated="true" type="Object">
+                <name>Reservation2</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>-235.0</userOffsetX>
+                    <userOffsetY>-25.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>-54.0</deltaY>
+                    <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+                    <corner>NORTH</corner>
+                    <relativeNodeId>Reservation2 [Reservation : (room:room5, occupants:res5)]::WayPoint::-1</relativeNodeId>
+                </strategy>
+                <hidden>false</hidden>
+            </node>
+        </associationClass>
+        <linkValue>Reservation2 [Reservation : (room:room5, occupants:res5)]</linkValue>
+    </edge>
+    <edge type="NodeEdge">
+        <source>room10</source>
+        <target>res10</target>
+        <name>Reservation</name>
+        <properties>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::target::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>occupants {ordered}</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::target::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::AssociationName"
+                sizeCalculated="true" type="associationName"
+                userDefined="false" visible="true">
+                <name>Reservation</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>-10.0</offsetY>
+                    <related length="2">
+                        <related0>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::0</related0>
+                        <related1>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::source::rolename"
+                sizeCalculated="true" type="rolename"
+                userDefined="false" visible="true">
+                <name>room</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::source::multiplicity"
+                sizeCalculated="true" type="multiplicity"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </properties>
+        <waypoints>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::0"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>0</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>0</id>
+                <specialid>1</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyAttachedIntersection">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                </strategy>
+                <id>1</id>
+                <specialid>2</specialid>
+                <hidden>false</hidden>
+            </edgeproperty>
+        </waypoints>
+        <hidden>false</hidden>
+        <connectionNode>
+            <edgeproperty
+                id="Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::-1"
+                sizeCalculated="true" type="WayPoint"
+                userDefined="false" visible="false">
+                <name>-1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyInBetween">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <offsetX>0.0</offsetX>
+                    <offsetY>0.0</offsetY>
+                    <related length="2">
+                        <related0>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::0</related0>
+                        <related1>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::1</related1>
+                    </related>
+                </strategy>
+                <id>-1</id>
+                <specialid>7</specialid>
+                <hidden>true</hidden>
+            </edgeproperty>
+        </connectionNode>
+        <associationClass>
+            <node id="Reservation1" sizeCalculated="true" type="Object">
+                <name>Reservation1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToCorner">
+                    <userOffsetX>293.0</userOffsetX>
+                    <userOffsetY>-29.0</userOffsetY>
+                    <basisDeltaX>ABSOLUTE</basisDeltaX>
+                    <deltaX>0.0</deltaX>
+                    <maxDeltaX>1.7976931348623157E308</maxDeltaX>
+                    <basisDeltaY>ABSOLUTE</basisDeltaY>
+                    <deltaY>-54.0</deltaY>
+                    <maxDeltaY>1.7976931348623157E308</maxDeltaY>
+                    <corner>NORTH</corner>
+                    <relativeNodeId>Reservation1 [Reservation : (occupants:res10, room:room10)]::WayPoint::-1</relativeNodeId>
+                </strategy>
+                <hidden>false</hidden>
+            </node>
+        </associationClass>
+        <linkValue>Reservation1 [Reservation : (occupants:res10, room:room10)]</linkValue>
+    </edge>
+</diagram_Layout>

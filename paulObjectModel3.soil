@@ -1,0 +1,63 @@
+!create jonSnow: Employee
+!create dannyTee: Employee
+!create branStark: Employee
+!create aryaStark: Employee
+!set jonSnow.id:= 1
+!set dannyTee.id:= 2
+!set branStark.id:= 3
+!set aryaStark.id:= 4
+!set jonSnow.name:= 'Aegon Targaryen'
+!set dannyTee.name:= 'Daenerys Targaryen'
+!set branStark.name:= 'Brandon Stark'
+!set aryaStark.name:= 'Arya Stark'
+!create maintenanceSupRole: MaintenanceSup
+!insert (jonSnow, maintenanceSupRole) into EmployeeRole
+!create accountMngRole: AccountMng
+!insert (dannyTee, accountMngRole) into EmployeeRole
+!create roomSupRole: RoomSup
+!insert (branStark, roomSupRole) into EmployeeRole
+!create housekeepingMngRole: HousekeepingSup
+!insert (aryaStark, housekeepingMngRole) into EmployeeRole
+!insert (aryaStark, aryaStark) into Management
+!insert (branStark, branStark) into Management
+!insert (jonSnow, jonSnow) into Management
+!insert (dannyTee, dannyTee) into Management
+!create room10: Room
+!create room5: Room
+!set room10.id:= 10
+!set room10.roomStatus:= RoomStatus::Occupied
+!set room10.roomRate:= 2599
+!set room5.id:= 5
+!set room5.roomStatus:= RoomStatus::Occupied
+!set room5.roomRate:= 4599
+!create res5: Resident
+!set res5.id:= 5
+!set res5.accountStatus:= ResidentStatus::Good
+!set res5.contact:= '8765551324'
+!set res5.fac:= Faculty::CARIMAC
+!create res10: Resident
+!set res10.id:= 10
+!set res10.accountStatus:= Good
+!set res10.accountStatus:= ResidentStatus::Good
+!set res10.contact:= '8765551423'
+!set res10.fac:= Faculty::SocialScience
+!insert (room10, res10) into Reservation
+!insert (room5, res5) into Reservation
+!create accOfres5: Billing
+!create accOfres10: Billing
+!insert (res5, accOfres5) into ResidentAccount
+!insert (res10, accOfres10) into ResidentAccount
+!insert (Reservation1, accOfres10) into Rent
+!insert (Reservation2, accOfres5) into Rent
+!create checkin1_res5: Period
+!create checkin1_res10: Period
+!create checkout1_res10: Period
+!insert (Reservation1, checkin1_res10) into ReservationPeriod
+!insert (Reservation1, checkout1_res10) into ReservationPeriod
+!insert (Reservation2, checkin1_res5) into ReservationPeriod
+!set Reservation1.active:= false
+!set Reservation1.shortTerm:= true
+!set Reservation2.active:= true
+!set Reservation2.shortTerm:= true
+!insert (roomSupRole, Reservation1) into ManageReservation
+!insert (roomSupRole, Reservation2) into ManageReservation
