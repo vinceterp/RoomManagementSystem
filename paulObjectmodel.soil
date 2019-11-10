@@ -19,7 +19,6 @@
 !create paulCampbell: Resident
 !set paulCampbell.id:= 1
 !set paulCampbell.accountStatus:= ResidentStatus::Good
-!set paulCampbell.contact:= 8765551234
 !set paulCampbell.contact:= '8765551234'
 !set paulCampbell.fac:= Faculty::MedScience
 !insert (room1, paulCampbell) into Reservation
