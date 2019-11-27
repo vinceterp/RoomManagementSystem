@@ -30,6 +30,13 @@ end
 class Employee < Identifier
 attributes
 	name: String
+constraints
+	inv noPseudoManager:
+		if employee->size() > 0 then
+			role.oclIsTypeOf(MaintenanceSup) or role.oclIsTypeOf(AccountMng) or role.oclIsTypeOf(HousekeepingSup) or role.oclIsTypeOf(RoomSup)
+		else
+			true
+		endif
 end
 
 class DateTime
@@ -40,9 +47,9 @@ attributes
 	hour: Integer
 	minutes: Integer
 	second: Real
-operations/*
+operations
 	after(dateTime: DateTime): Boolean
-	currentDate(): DateTime*/
+	currentDate(): DateTime
 end
 
 class Period
@@ -58,11 +65,16 @@ attributes
 	contact: String
 	fac: Faculty
 operations
+	makePayment(account: Billing): OclVoid
+	viewBalance(): UnlimitedNatural
 end
 
 class MaintenanceSup < Technician end
 class AccountMng < Accountant end
-class RoomSup < RoomMng end
+class RoomSup < RoomMng 
+operations
+	applyResAccStatus(status: ResidentStatus, res: Resident): OclVoid
+end
 class HousekeepingSup < HouseKeeper end
 
 class Room < Identifier
@@ -70,6 +82,8 @@ attributes
 	roomStatus: RoomStatus
 	roomRate: UnlimitedNatural
 operations
+	vacancy(): OclVoid
+	housekeeping(hkeeper: Employee): OclVoid
 constraints
 	inv noDoubleBooking:
 		occupants->select(x| x.reservation.active = true)->size() <= 2
@@ -86,12 +100,10 @@ constraints
 end
 
 class RoomMng < Role
-/*
 operations
-	cancelReservation(room: Room, res: Resident): OclVoid
-	verifyReservation(room: Room, res: Resident): OclVoid
-	modifyReservation(room: Room, res: Resident): OclVoid
-*/
+	cancelReservation(room: Room, res: Resident): Boolean
+	verifyReservation(room: Room, res: Resident): Boolean
+	modifyReservation(room: Room, res: Resident): Boolean
 end
 class HouseKeeper < Role end
 class Technician < Role end
@@ -118,7 +130,7 @@ constraints
 	inv overStay:
 		days < 120 implies shortTerm= true
 	inv checkoutDate:
-		active = true implies checkinout->size() = 1 and checkinout->size() = 2 implies active = false
+		active = true implies checkinout->size() = 1 and checkinout->size() = 1 implies active = true
 end
 
 
@@ -126,7 +138,7 @@ end
 association EmployeeTasks
 between
 	Employee[*] role employee
-	EmployeeTask [*] role tasks ordered
+	EmployeeTask [*] role tasks
 end
 
 association RoomTask
@@ -167,6 +179,6 @@ end
 
 association Rent
 between
-	Reservation [1] role booking
+	Reservation [1] role occupant
 	Account [1] role payment
 end
